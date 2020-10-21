@@ -1,1 +1,29 @@
+@media (max-width: 600px) {
+  .users div {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: auto;
+}
 
+.container-bottom div {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  color: white;
+  margin: 1rem;
+}
+
+.container-top {
+  flex-flow: column wrap;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 0, 255);
+  color: white;
+  margin: 1rem;
+}
